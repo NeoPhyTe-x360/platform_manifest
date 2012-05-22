@@ -1,0 +1,7 @@
+### AOKP
+$ repo init -u https://github.com/NeoPhyTe-x360/platform_manifest.git -b ics
+$ repo sync
+
+temporary fix to build:
+$ install -d prebuilt/android-arm/kernel
+  curl -o prebuilt/android-arm/kernel/LINUX_KERNEL_COPYING -O https://raw.github.com/ezterry/kernel-biff-testing/ezgb-2636/COPYING
